@@ -1,0 +1,16 @@
+(lp0
+VAAPL
+p1
+aVAMZN
+p2
+aVEMC
+p3
+aVGOOG
+p4
+aVTDC
+p5
+aVTXN
+p6
+aVV
+p7
+a.

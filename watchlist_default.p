@@ -1,0 +1,10 @@
+(lp0
+S'AAPL'
+p1
+aS'GOOG'
+p2
+aS'MSFT'
+p3
+aS'AMZN'
+p4
+a.
