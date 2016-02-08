@@ -11,7 +11,7 @@ from flask import *
 import xml.etree.ElementTree as ET
 from flask.ext.cors import CORS
 
-from sandp_500 import constituent_list
+from sandp_100 import constituent_list
 from Insights import personality_insights
 from StockAnalyzer import stock_analyzer
 
@@ -42,6 +42,8 @@ class Scrip:
         self.symbol = symbol
         self.turnover = turnover
         self.quantity = quantity
+        self.buzz_factor = None
+        self.buzz = None
 
 #############################
 
@@ -80,6 +82,9 @@ def update_cache():
             index[scrip].long_term_gain = long_term_gain
         except:
             print ' * long term gain calc for', scrip, 'failed: insufficient data'
+
+        index[scrip].buzz, index[scrip].buzz_factor = stock_analyzer.StockAnalyzer().get_stock_analyze(symbol).split(',')
+        
 
     print ' * saving cache...',
     pickle.dump(index, open('cache.p', 'wb'))
@@ -257,12 +262,13 @@ def watchlist_ops():
     if request.method == 'GET':
         resp = []
         for w_item in watchlist:
-            buzz = stock_analyzer.StockAnalyzer().get_stock_analyze(w_item)
+            buzz, buzz_factor = index[w_item].buzz, index[w_item].buzz_factor
             symbol = index[w_item].symbol
             quantity = index[w_item].quantity
             name = index[w_item].name
 
             resp.append({  "buzz": buzz,
+                "buzz_factor": buzz_factor,
                 "symbol": symbol,
                 "quantity": quantity,
                 "name": name })
@@ -277,6 +283,23 @@ def watchlist_ops():
             return 'Success'
         except:
             abort(400)
+
+
+@app.route('/stocks/buy')
+def stocksbuy():
+    resp = sorted([ ( i.symbol, i.buzz_factor ) for i in index.values() if i.buzz == 'positive' ],
+            key=lambda x: x[1]).reverse() 
+
+    return json.dumps(resp)
+
+
+@app.route('/stocks/sell')
+def stockssell():
+    resp = sorted([ ( i.symbol, i.buzz_factor ) for i in index.values() if i.buzz == 'negative' ],
+            key=lambda x: x[1])
+
+    return json.dumps(resp)
+
 
 
 @app.route('/tradeoff')
