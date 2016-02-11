@@ -55,6 +55,7 @@ def update_cache():
             data = Quandl.get('WIKI/' + scrip, authtoken=quandl_api_key)
         except Exception as e:
             print ' * data fetch for', scrip, 'failed:', e.message
+            continue
 
         symbol = scrip
         name = all_stock_list[scrip]
@@ -277,7 +278,7 @@ def watchlist_ops():
 
     elif request.method == 'POST':
         try:
-            watchlist = json.loads(request.data)["watchlist"]
+            watchlist = list(set(json.loads(request.data)["watchlist"]))
             pickle.dump(watchlist, open('watchlist.p', 'wb'))
             print ' * updated watchlist:', watchlist
             return 'Success'
@@ -287,18 +288,24 @@ def watchlist_ops():
 
 @app.route('/stocks/buy')
 def stocksbuy():
-    resp = sorted([ ( i.symbol, i.buzz_factor ) for i in index.values() if i.buzz == 'positive' ],
-            key=lambda x: x[1]).reverse() 
+    resp = sorted([ ( i.symbol, i.buzz_factor ) for i in index.values() if i.buzz == 'positive' ], key=lambda x: x[1], reverse=True)
 
     return json.dumps(resp)
 
 
 @app.route('/stocks/sell')
 def stockssell():
-    resp = sorted([ ( i.symbol, i.buzz_factor ) for i in index.values() if i.buzz == 'negative' ],
-            key=lambda x: x[1])
+    resp = sorted([ ( i.symbol, i.buzz_factor ) for i in index.values() if i.buzz == 'negative' ], key=lambda x: x[1], reverse=True)
 
     return json.dumps(resp)
+
+
+@app.route('/stocks/hold')
+def stockshold():
+    resp = [ ( i.symbol, i.buzz_factor ) for i in index.values() if i.buzz == 'neutral' ]
+
+    return json.dumps(resp)
+
 
 
 
@@ -370,7 +377,7 @@ def tradeoff_analysis():
                 "key": "Quantity",
                 "full_name": "Quantity",
                 "goal": "max",
-                "is_objective": false
+                "is_objective": true
             }
         ],
         "options": [ %s ]
