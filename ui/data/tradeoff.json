@@ -1,0 +1,1217 @@
+{
+    "problem": {
+        "columns": [{
+            "type": "numeric",
+            "key": "Short Term Gain",
+            "full_name": "Short Term Gain",
+            "description": "",
+            "goal": "max",
+            "is_objective": true
+        }, {
+            "type": "numeric",
+            "key": "Mid Term Gain",
+            "full_name": "Mid Term Gain",
+            "description": "",
+            "goal": "max",
+            "is_objective": true
+        }, {
+            "type": "numeric",
+            "key": "Long Term Gain",
+            "full_name": "Long Term Gain",
+            "description": "",
+            "goal": "max",
+            "is_objective": true
+        }, {
+            "type": "numeric",
+            "key": "Risk Factor",
+            "full_name": "Risk Factor",
+            "description": "",
+            "goal": "min",
+            "is_objective": true
+        }, {
+            "type": "numeric",
+            "key": "Quantity",
+            "full_name": "Quantity",
+            "goal": "max",
+            "is_objective": true
+        }],
+        "subject": "Stocks Comparison",
+        "options": [{
+            "key": "0",
+            "name": "AXP",
+            "values": {
+                "Short Term Gain": -42.7009294697,
+                "Quantity": 11815816,
+                "Long Term Gain": -1.46671681083,
+                "Mid Term Gain": 38.1492222515,
+                "Risk Factor": 0.54012282686
+            },
+            "description_html": "American Express Inc.",
+            "app_data": {}
+        }, {
+            "key": "1",
+            "name": "BA",
+            "values": {
+                "Short Term Gain": -7.04893799113,
+                "Quantity": 6437693,
+                "Long Term Gain": 173.888124713,
+                "Mid Term Gain": 104.571917808,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Boeing Co.",
+            "app_data": {}
+        }, {
+            "key": "2",
+            "name": "AAPL",
+            "values": {
+                "Short Term Gain": -20.1126713193,
+                "Quantity": 53689273,
+                "Long Term Gain": 243.244219653,
+                "Mid Term Gain": -52.6503069931,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Apple Inc.",
+            "app_data": {}
+        }, {
+            "key": "3",
+            "name": "BK",
+            "values": {
+                "Short Term Gain": -16.2053346754,
+                "Quantity": 9427675,
+                "Long Term Gain": 3.8029925187,
+                "Mid Term Gain": 22.0227189447,
+                "Risk Factor": 0.435864154747
+            },
+            "description_html": "Bank of New York",
+            "app_data": {}
+        }, {
+            "key": "4",
+            "name": "GM",
+            "values": {
+                "Short Term Gain": -7.84061696658,
+                "Quantity": 18668733,
+                "Long Term Gain": 0,
+                "Mid Term Gain": 0,
+                "Risk Factor": 0.552270779777
+            },
+            "description_html": "General Motors",
+            "app_data": {}
+        }, {
+            "key": "5",
+            "name": "EXC",
+            "values": {
+                "Short Term Gain": -8.48416289593,
+                "Quantity": 9714632,
+                "Long Term Gain": -50.5954198473,
+                "Mid Term Gain": -26.8535262206,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Exelon",
+            "app_data": {}
+        }, {
+            "key": "6",
+            "name": "SPG",
+            "values": {
+                "Short Term Gain": 1.62619737135,
+                "Quantity": 1829076,
+                "Long Term Gain": 241.403180543,
+                "Mid Term Gain": 162.750179986,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Simon Property Group, Inc.",
+            "app_data": {}
+        }, {
+            "key": "7",
+            "name": "GS",
+            "values": {
+                "Short Term Gain": -21.5464676198,
+                "Quantity": 8665393,
+                "Long Term Gain": 43.0694018405,
+                "Mid Term Gain": -1.22435473197,
+                "Risk Factor": 0.364676136742
+            },
+            "description_html": "Goldman Sachs",
+            "app_data": {}
+        }, {
+            "key": "8",
+            "name": "WMT",
+            "values": {
+                "Short Term Gain": -15.5303030303,
+                "Quantity": 18905543,
+                "Long Term Gain": 14.5940390545,
+                "Mid Term Gain": 23.2725262576,
+                "Risk Factor": 0.351091584788
+            },
+            "description_html": "Wal-Mart",
+            "app_data": {}
+        }, {
+            "key": "9",
+            "name": "GE",
+            "values": {
+                "Short Term Gain": 6.62376987131,
+                "Quantity": 47341275,
+                "Long Term Gain": -15.3545673077,
+                "Mid Term Gain": 80.5769230769,
+                "Risk Factor": 0.0210258290631
+            },
+            "description_html": "General Electric Co.",
+            "app_data": {}
+        }, {
+            "key": "10",
+            "name": "GD",
+            "values": {
+                "Short Term Gain": -7.32254221849,
+                "Quantity": 1907609,
+                "Long Term Gain": 44.4201790784,
+                "Mid Term Gain": 99.3368500377,
+                "Risk Factor": 0.0
+            },
+            "description_html": "General Dynamics",
+            "app_data": {}
+        }, {
+            "key": "11",
+            "name": "T",
+            "values": {
+                "Short Term Gain": 4.83050847458,
+                "Quantity": 40753441,
+                "Long Term Gain": 53.4105002067,
+                "Mid Term Gain": 45.0742767787,
+                "Risk Factor": 0.0
+            },
+            "description_html": "AT&T Inc",
+            "app_data": {}
+        }, {
+            "key": "12",
+            "name": "MRK",
+            "values": {
+                "Short Term Gain": -17.3353648214,
+                "Quantity": 13284172,
+                "Long Term Gain": 1.96283148883,
+                "Mid Term Gain": 33.8908692076,
+                "Risk Factor": 0.3765444275
+            },
+            "description_html": "Merck & Co.",
+            "app_data": {}
+        }, {
+            "key": "13",
+            "name": "AMZN",
+            "values": {
+                "Short Term Gain": 48.8926850101,
+                "Quantity": 9782758,
+                "Long Term Gain": 1053.35538752,
+                "Mid Term Gain": 317.786527433,
+                "Risk Factor": 0.5
+            },
+            "description_html": "Amazon.com",
+            "app_data": {}
+        }, {
+            "key": "14",
+            "name": "FOXA",
+            "values": {
+                "Short Term Gain": -29.7227779366,
+                "Quantity": 17318310,
+                "Long Term Gain": -23.9406124343,
+                "Mid Term Gain": 94.5411392405,
+                "Risk Factor": 0.227481674202
+            },
+            "description_html": "Twenty-First Century Fox, Inc",
+            "app_data": {}
+        }, {
+            "key": "15",
+            "name": "JNJ",
+            "values": {
+                "Short Term Gain": -5.69526627219,
+                "Quantity": 14294324,
+                "Long Term Gain": 88.679245283,
+                "Mid Term Gain": 62.5239005736,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Johnson & Johnson Inc",
+            "app_data": {}
+        }, {
+            "key": "16",
+            "name": "APA",
+            "values": {
+                "Short Term Gain": -48.7661895024,
+                "Quantity": 6283260,
+                "Long Term Gain": -2.94421487603,
+                "Mid Term Gain": -61.8089430894,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Apache Corp.",
+            "app_data": {}
+        }, {
+            "key": "17",
+            "name": "EMC",
+            "values": {
+                "Short Term Gain": -19.4407456724,
+                "Quantity": 20074794,
+                "Long Term Gain": 81.5453863466,
+                "Mid Term Gain": 40.2898550725,
+                "Risk Factor": 0.0
+            },
+            "description_html": "EMC Corporation",
+            "app_data": {}
+        }, {
+            "key": "18",
+            "name": "WFC",
+            "values": {
+                "Short Term Gain": -12.9050383967,
+                "Quantity": 30727919,
+                "Long Term Gain": -18.2633151696,
+                "Mid Term Gain": 71.8403547672,
+                "Risk Factor": 0.228853325328
+            },
+            "description_html": "Wells Fargo",
+            "app_data": {}
+        }, {
+            "key": "19",
+            "name": "EMR",
+            "values": {
+                "Short Term Gain": -26.0295504558,
+                "Quantity": 5168013,
+                "Long Term Gain": -23.9495798319,
+                "Mid Term Gain": 5.82415111311,
+                "Risk Factor": 0.794366527831
+            },
+            "description_html": "Emerson Electric Co.",
+            "app_data": {}
+        }, {
+            "key": "20",
+            "name": "FDX",
+            "values": {
+                "Short Term Gain": -24.0368362767,
+                "Quantity": 1750778,
+                "Long Term Gain": 89.8747086247,
+                "Mid Term Gain": 69.9439301082,
+                "Risk Factor": 0.0
+            },
+            "description_html": "FedEx",
+            "app_data": {}
+        }, {
+            "key": "21",
+            "name": "HD",
+            "values": {
+                "Short Term Gain": 13.5648289166,
+                "Quantity": 11273099,
+                "Long Term Gain": 216.139061617,
+                "Mid Term Gain": 299.749821301,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Home Depot",
+            "app_data": {}
+        }, {
+            "key": "22",
+            "name": "MMM",
+            "values": {
+                "Short Term Gain": -3.11614730878,
+                "Quantity": 2501377,
+                "Long Term Gain": 93.6336185204,
+                "Mid Term Gain": 98.5038049787,
+                "Risk Factor": 0.0
+            },
+            "description_html": "3M Company",
+            "app_data": {}
+        }, {
+            "key": "23",
+            "name": "LLY",
+            "values": {
+                "Short Term Gain": 10.1886231992,
+                "Quantity": 4341429,
+                "Long Term Gain": 2.51485422136,
+                "Mid Term Gain": 113.312248419,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Eli Lilly and Company",
+            "app_data": {}
+        }, {
+            "key": "24",
+            "name": "RTN",
+            "values": {
+                "Short Term Gain": 21.7117988395,
+                "Quantity": 2615702,
+                "Long Term Gain": 292.790262172,
+                "Mid Term Gain": 129.569500182,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Raytheon Company",
+            "app_data": {}
+        }, {
+            "key": "25",
+            "name": "PG",
+            "values": {
+                "Short Term Gain": -6.74943566591,
+                "Quantity": 16488542,
+                "Long Term Gain": -19.3951219512,
+                "Mid Term Gain": 34.5602605863,
+                "Risk Factor": 0.443895313539
+            },
+            "description_html": "Procter & Gamble Co",
+            "app_data": {}
+        }, {
+            "key": "26",
+            "name": "LMT",
+            "values": {
+                "Short Term Gain": 14.8017338257,
+                "Quantity": 2499593,
+                "Long Term Gain": 342.329896907,
+                "Mid Term Gain": 182.276315789,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Lockheed-Martin",
+            "app_data": {}
+        }, {
+            "key": "27",
+            "name": "BMY",
+            "values": {
+                "Short Term Gain": 6.05698686231,
+                "Quantity": 10060505,
+                "Long Term Gain": 118.950334625,
+                "Mid Term Gain": 159.432387312,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Bristol-Myers Squibb",
+            "app_data": {}
+        }, {
+            "key": "28",
+            "name": "PM",
+            "values": {
+                "Short Term Gain": 2.07053469852,
+                "Quantity": 5117480,
+                "Long Term Gain": 0,
+                "Mid Term Gain": 91.0155418352,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Phillip Morris International",
+            "app_data": {}
+        }, {
+            "key": "29",
+            "name": "C",
+            "values": {
+                "Short Term Gain": -29.247754491,
+                "Quantity": 35165147,
+                "Long Term Gain": -23.3373884834,
+                "Mid Term Gain": 1074.22360248,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Citigroup Inc",
+            "app_data": {}
+        }, {
+            "key": "30",
+            "name": "OXY",
+            "values": {
+                "Short Term Gain": -23.2935450226,
+                "Quantity": 6587340,
+                "Long Term Gain": 49.2110009017,
+                "Mid Term Gain": -13.4092098378,
+                "Risk Factor": 0.416611693058
+            },
+            "description_html": "Occidental Petroleum Corp.",
+            "app_data": {}
+        }, {
+            "key": "31",
+            "name": "VZ",
+            "values": {
+                "Short Term Gain": 0.25686623197,
+                "Quantity": 26978703,
+                "Long Term Gain": 35.8500669344,
+                "Mid Term Gain": 73.8266529633,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Verizon Communications Inc",
+            "app_data": {}
+        }, {
+            "key": "32",
+            "name": "QCOM",
+            "values": {
+                "Short Term Gain": -38.0522230064,
+                "Quantity": 12693490,
+                "Long Term Gain": -29.6972609322,
+                "Mid Term Gain": 15.3785488959,
+                "Risk Factor": 0.849139566951
+            },
+            "description_html": "Qualcomm Inc.",
+            "app_data": {}
+        }, {
+            "key": "33",
+            "name": "BLK",
+            "values": {
+                "Short Term Gain": -15.8127259166,
+                "Quantity": 1162088,
+                "Long Term Gain": 398.742352141,
+                "Mid Term Gain": 40.552708463,
+                "Risk Factor": 0.0
+            },
+            "description_html": "BlackRock Inc",
+            "app_data": {}
+        }, {
+            "key": "34",
+            "name": "APC",
+            "values": {
+                "Short Term Gain": -55.5937465351,
+                "Quantity": 8275284,
+                "Long Term Gain": -22.0513818606,
+                "Mid Term Gain": -36.3780778396,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Anadarko Petroleum Corporation",
+            "app_data": {}
+        }, {
+            "key": "35",
+            "name": "UPS",
+            "values": {
+                "Short Term Gain": -10.4216534708,
+                "Quantity": 4523354,
+                "Long Term Gain": 38.6830102623,
+                "Mid Term Gain": 69.8376680049,
+                "Risk Factor": 0.0
+            },
+            "description_html": "United Parcel Service Inc",
+            "app_data": {}
+        }, {
+            "key": "36",
+            "name": "MA",
+            "values": {
+                "Short Term Gain": -4.04521118382,
+                "Quantity": 9205724,
+                "Long Term Gain": 0,
+                "Mid Term Gain": -63.9069142985,
+                "Risk Factor": 0.953014169882
+            },
+            "description_html": "Mastercard Inc",
+            "app_data": {}
+        }, {
+            "key": "37",
+            "name": "MO",
+            "values": {
+                "Short Term Gain": 19.6179864704,
+                "Quantity": 7876085,
+                "Long Term Gain": 2.87474332649,
+                "Mid Term Gain": 196.742349457,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Altria Group",
+            "app_data": {}
+        }, {
+            "key": "38",
+            "name": "MDLZ",
+            "values": {
+                "Short Term Gain": -5.29059160803,
+                "Quantity": 19292631,
+                "Long Term Gain": 9.656004828,
+                "Mid Term Gain": 25.7439446367,
+                "Risk Factor": 0.299270947622
+            },
+            "description_html": "Mondelez International",
+            "app_data": {}
+        }, {
+            "key": "39",
+            "name": "MON",
+            "values": {
+                "Short Term Gain": -23.2999915945,
+                "Quantity": 2698712,
+                "Long Term Gain": 184.889166406,
+                "Mid Term Gain": 22.9618649778,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Monsanto",
+            "app_data": {}
+        }, {
+            "key": "40",
+            "name": "MS",
+            "values": {
+                "Short Term Gain": -36.4808069487,
+                "Quantity": 24246108,
+                "Long Term Gain": -62.4855204369,
+                "Mid Term Gain": -16.4393660155,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Morgan Stanley",
+            "app_data": {}
+        }, {
+            "key": "41",
+            "name": "NOV",
+            "values": {
+                "Short Term Gain": -61.095890411,
+                "Quantity": 6804992,
+                "Long Term Gain": 0.744945015963,
+                "Mid Term Gain": -33.2393041843,
+                "Risk Factor": 1.0
+            },
+            "description_html": "National Oilwell Varco",
+            "app_data": {}
+        }, {
+            "key": "42",
+            "name": "COP",
+            "values": {
+                "Short Term Gain": -51.3906536778,
+                "Quantity": 21913656,
+                "Long Term Gain": -51.2530086366,
+                "Mid Term Gain": -28.0459770115,
+                "Risk Factor": 1.0
+            },
+            "description_html": "ConocoPhillips",
+            "app_data": {}
+        }, {
+            "key": "43",
+            "name": "DVN",
+            "values": {
+                "Short Term Gain": -63.0404245357,
+                "Quantity": 9301650,
+                "Long Term Gain": -56.8670309654,
+                "Mid Term Gain": -64.5827101406,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Devon Energy",
+            "app_data": {}
+        }, {
+            "key": "44",
+            "name": "PEP",
+            "values": {
+                "Short Term Gain": -0.204666393778,
+                "Quantity": 4710360,
+                "Long Term Gain": 87.2144365521,
+                "Mid Term Gain": 63.8716182154,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Pepsico Inc.",
+            "app_data": {}
+        }, {
+            "key": "45",
+            "name": "ACN",
+            "values": {
+                "Short Term Gain": 12.322778828,
+                "Quantity": 6677740,
+                "Long Term Gain": 318.257809063,
+                "Mid Term Gain": 134.104900271,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Accenture plc",
+            "app_data": {}
+        }, {
+            "key": "46",
+            "name": "FB",
+            "values": {
+                "Short Term Gain": 33.4983940043,
+                "Quantity": 70889940,
+                "Long Term Gain": 0,
+                "Mid Term Gain": 0,
+                "Risk Factor": 0.276677373305
+            },
+            "description_html": "Facebook",
+            "app_data": {}
+        }, {
+            "key": "47",
+            "name": "COST",
+            "values": {
+                "Short Term Gain": 6.16695551704,
+                "Quantity": 3733392,
+                "Long Term Gain": 279.994830706,
+                "Mid Term Gain": 150.204220558,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Costco",
+            "app_data": {}
+        }, {
+            "key": "48",
+            "name": "COF",
+            "values": {
+                "Short Term Gain": -25.3524580115,
+                "Quantity": 3875214,
+                "Long Term Gain": -13.0018574082,
+                "Mid Term Gain": 72.2002262443,
+                "Risk Factor": 0.274360594503
+            },
+            "description_html": "Capital One Financial Corp.",
+            "app_data": {}
+        }, {
+            "key": "49",
+            "name": "DOW",
+            "values": {
+                "Short Term Gain": -10.1981351981,
+                "Quantity": 13453888,
+                "Long Term Gain": 7.51162790698,
+                "Mid Term Gain": 60.8559498956,
+                "Risk Factor": 0.11220371597
+            },
+            "description_html": "Dow Chemical",
+            "app_data": {}
+        }, {
+            "key": "50",
+            "name": "MSFT",
+            "values": {
+                "Short Term Gain": -0.342880193626,
+                "Quantity": 56811901,
+                "Long Term Gain": 85.0561797753,
+                "Mid Term Gain": 76.4012852553,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Microsoft",
+            "app_data": {}
+        }, {
+            "key": "51",
+            "name": "IBM",
+            "values": {
+                "Short Term Gain": -22.6486354776,
+                "Quantity": 6793959,
+                "Long Term Gain": 31.1912387643,
+                "Mid Term Gain": 4.18444371513,
+                "Risk Factor": 0.415153019987
+            },
+            "description_html": "International Business Machines",
+            "app_data": {}
+        }, {
+            "key": "52",
+            "name": "FCX",
+            "values": {
+                "Short Term Gain": -81.4632430531,
+                "Quantity": 64853358,
+                "Long Term Gain": -87.5443157646,
+                "Mid Term Gain": -92.5205790519,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Freeport-McMoran",
+            "app_data": {}
+        }, {
+            "key": "53",
+            "name": "MDT",
+            "values": {
+                "Short Term Gain": 0.763041065483,
+                "Quantity": 6534144,
+                "Long Term Gain": 51.3755731555,
+                "Mid Term Gain": 67.0807453416,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Medtronic Inc.",
+            "app_data": {}
+        }, {
+            "key": "54",
+            "name": "UNP",
+            "values": {
+                "Short Term Gain": -34.8890982273,
+                "Quantity": 7594950,
+                "Long Term Gain": 24.1711579291,
+                "Mid Term Gain": 13.6812200957,
+                "Risk Factor": 0.48024480135
+            },
+            "description_html": "Union Pacific Corp.",
+            "app_data": {}
+        }, {
+            "key": "55",
+            "name": "CL",
+            "values": {
+                "Short Term Gain": -2.20544701007,
+                "Quantity": 4023916,
+                "Long Term Gain": 19.6486780152,
+                "Mid Term Gain": -16.4622581869,
+                "Risk Factor": 0.493460181212
+            },
+            "description_html": "Colgate-Palmolive Co.",
+            "app_data": {}
+        }, {
+            "key": "56",
+            "name": "GILD",
+            "values": {
+                "Short Term Gain": -18.1765834933,
+                "Quantity": 18546402,
+                "Long Term Gain": 57.5679172057,
+                "Mid Term Gain": 84.9858971577,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Gilead Sciences",
+            "app_data": {}
+        }, {
+            "key": "57",
+            "name": "V",
+            "values": {
+                "Short Term Gain": -73.6570006997,
+                "Quantity": 29822811,
+                "Long Term Gain": 0,
+                "Mid Term Gain": -21.3074779378,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Visa Inc.",
+            "app_data": {}
+        }, {
+            "key": "58",
+            "name": "UNH",
+            "values": {
+                "Short Term Gain": 14.7236704901,
+                "Quantity": 4993200,
+                "Long Term Gain": 79.7418722431,
+                "Mid Term Gain": 238.106945298,
+                "Risk Factor": 0.0
+            },
+            "description_html": "UnitedHealth Group Inc.",
+            "app_data": {}
+        }, {
+            "key": "59",
+            "name": "JPM",
+            "values": {
+                "Short Term Gain": -6.29764666888,
+                "Quantity": 28161894,
+                "Long Term Gain": 33.1292677184,
+                "Mid Term Gain": 41.7753259779,
+                "Risk Factor": 0.0426203531504
+            },
+            "description_html": "JP Morgan Chase & Co",
+            "app_data": {}
+        }, {
+            "key": "60",
+            "name": "ALL",
+            "values": {
+                "Short Term Gain": -4.88134574947,
+                "Quantity": 3004644,
+                "Long Term Gain": 36.9297297297,
+                "Mid Term Gain": 119.059149083,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Allstate Corp.",
+            "app_data": {}
+        }, {
+            "key": "61",
+            "name": "KO",
+            "values": {
+                "Short Term Gain": -4.86281507919,
+                "Quantity": 17212089,
+                "Long Term Gain": -14.5290581162,
+                "Mid Term Gain": -22.6794778825,
+                "Risk Factor": 0.780475673853
+            },
+            "description_html": "The Coca-Cola Company",
+            "app_data": {}
+        }, {
+            "key": "62",
+            "name": "EBAY",
+            "values": {
+                "Short Term Gain": -58.4165741768,
+                "Quantity": 20499469,
+                "Long Term Gain": -67.1489112962,
+                "Mid Term Gain": -3.22858372794,
+                "Risk Factor": 1.0
+            },
+            "description_html": "eBay Inc.",
+            "app_data": {}
+        }, {
+            "key": "63",
+            "name": "SBUX",
+            "values": {
+                "Short Term Gain": -30.491719091,
+                "Quantity": 21395658,
+                "Long Term Gain": 43.3412761451,
+                "Mid Term Gain": 148.2347547,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Starbucks Corporation",
+            "app_data": {}
+        }, {
+            "key": "64",
+            "name": "MET",
+            "values": {
+                "Short Term Gain": -31.8723638364,
+                "Quantity": 10676902,
+                "Long Term Gain": 6.90647482014,
+                "Mid Term Gain": 5.68990042674,
+                "Risk Factor": 0.628506590597
+            },
+            "description_html": "Metlife Inc.",
+            "app_data": {}
+        }, {
+            "key": "65",
+            "name": "SO",
+            "values": {
+                "Short Term Gain": 4.27167876976,
+                "Quantity": 6981580,
+                "Long Term Gain": 59.2822185971,
+                "Mid Term Gain": 52.467207995,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Southern Company",
+            "app_data": {}
+        }, {
+            "key": "66",
+            "name": "CMCSA",
+            "values": {
+                "Short Term Gain": 9.39226519337,
+                "Quantity": 27399131,
+                "Long Term Gain": 101.287699085,
+                "Mid Term Gain": 285.214007782,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Comcast Corporation",
+            "app_data": {}
+        }, {
+            "key": "67",
+            "name": "LOW",
+            "values": {
+                "Short Term Gain": 8.4841242745,
+                "Quantity": 8300772,
+                "Long Term Gain": 14.4426436161,
+                "Mid Term Gain": 190.97985348,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Lowe's",
+            "app_data": {}
+        }, {
+            "key": "68",
+            "name": "USB",
+            "values": {
+                "Short Term Gain": -9.97494875882,
+                "Quantity": 13872707,
+                "Long Term Gain": 37.4478442281,
+                "Mid Term Gain": 66.5823851665,
+                "Risk Factor": 0.0
+            },
+            "description_html": "US Bancorp",
+            "app_data": {}
+        }, {
+            "key": "69",
+            "name": "CVX",
+            "values": {
+                "Short Term Gain": -26.0746217331,
+                "Quantity": 17683427,
+                "Long Term Gain": -2.10610200364,
+                "Mid Term Gain": 20.5861730473,
+                "Risk Factor": 0.55063033793
+            },
+            "description_html": "Chevron",
+            "app_data": {}
+        }, {
+            "key": "70",
+            "name": "DD",
+            "values": {
+                "Short Term Gain": -17.8672316384,
+                "Quantity": 6797934,
+                "Long Term Gain": 28.7643932684,
+                "Mid Term Gain": 80.6461634048,
+                "Risk Factor": 0.0
+            },
+            "description_html": "DuPont",
+            "app_data": {}
+        }, {
+            "key": "71",
+            "name": "CVS",
+            "values": {
+                "Short Term Gain": -0.532564074115,
+                "Quantity": 9654520,
+                "Long Term Gain": 148.337950139,
+                "Mid Term Gain": 173.991442543,
+                "Risk Factor": 0.0
+            },
+            "description_html": "CVS Caremark",
+            "app_data": {}
+        }, {
+            "key": "72",
+            "name": "BAX",
+            "values": {
+                "Short Term Gain": -49.5303518856,
+                "Quantity": 6251258,
+                "Long Term Gain": 24.3093922652,
+                "Mid Term Gain": -36.3845202333,
+                "Risk Factor": 0.910703199024
+            },
+            "description_html": "Baxter International Inc",
+            "app_data": {}
+        }, {
+            "key": "73",
+            "name": "CAT",
+            "values": {
+                "Short Term Gain": -37.2948829983,
+                "Quantity": 6311216,
+                "Long Term Gain": -15.9333506899,
+                "Mid Term Gain": 25.6420233463,
+                "Risk Factor": 0.683908068946
+            },
+            "description_html": "Caterpillar Inc",
+            "app_data": {}
+        }, {
+            "key": "74",
+            "name": "BAC",
+            "values": {
+                "Short Term Gain": -29.1570438799,
+                "Quantity": 210649924,
+                "Long Term Gain": -84.9207324567,
+                "Mid Term Gain": -20.991629105,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Bank of America Corp",
+            "app_data": {}
+        }, {
+            "key": "75",
+            "name": "WBA",
+            "values": {
+                "Short Term Gain": 0,
+                "Quantity": 8754774,
+                "Long Term Gain": 0,
+                "Mid Term Gain": 0,
+                "Risk Factor": 0.5
+            },
+            "description_html": "Walgreens Boots Alliance",
+            "app_data": {}
+        }, {
+            "key": "76",
+            "name": "HAL",
+            "values": {
+                "Short Term Gain": -42.0815329701,
+                "Quantity": 14486643,
+                "Long Term Gain": -0.612508059317,
+                "Mid Term Gain": 8.97843761046,
+                "Risk Factor": 0.72477068946
+            },
+            "description_html": "Halliburton",
+            "app_data": {}
+        }, {
+            "key": "77",
+            "name": "AIG",
+            "values": {
+                "Short Term Gain": -2.96846011132,
+                "Quantity": 14849896,
+                "Long Term Gain": -29.3529650142,
+                "Mid Term Gain": 133.37795627,
+                "Risk Factor": 0.0
+            },
+            "description_html": "American International Group Inc.",
+            "app_data": {}
+        }, {
+            "key": "78",
+            "name": "TWX",
+            "values": {
+                "Short Term Gain": -14.7885540643,
+                "Quantity": 6370895,
+                "Long Term Gain": 284.132420091,
+                "Mid Term Gain": 148.982611913,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Time Warner Inc.",
+            "app_data": {}
+        }, {
+            "key": "79",
+            "name": "DIS",
+            "values": {
+                "Short Term Gain": 1.80130401149,
+                "Quantity": 13658358,
+                "Long Term Gain": 244.373831776,
+                "Mid Term Gain": 211.848341232,
+                "Risk Factor": 0.0
+            },
+            "description_html": "The Walt Disney Company",
+            "app_data": {}
+        }, {
+            "key": "80",
+            "name": "TXN",
+            "values": {
+                "Short Term Gain": -1.41390664342,
+                "Quantity": 15553401,
+                "Long Term Gain": 70.1771982615,
+                "Mid Term Gain": 120.346320346,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Texas Instruments",
+            "app_data": {}
+        }, {
+            "key": "81",
+            "name": "F",
+            "values": {
+                "Short Term Gain": -26.0841836735,
+                "Quantity": 45190385,
+                "Long Term Gain": -15.401459854,
+                "Mid Term Gain": 3.38983050847,
+                "Risk Factor": 0.753972086793
+            },
+            "description_html": "Ford Motor",
+            "app_data": {}
+        }, {
+            "key": "82",
+            "name": "TGT",
+            "values": {
+                "Short Term Gain": 6.5124771759,
+                "Quantity": 5377285,
+                "Long Term Gain": 65.5237644833,
+                "Mid Term Gain": 37.741046832,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Target Corp.",
+            "app_data": {}
+        }, {
+            "key": "83",
+            "name": "BIIB",
+            "values": {
+                "Short Term Gain": -21.8833717525,
+                "Quantity": 2731621,
+                "Long Term Gain": 340.953050818,
+                "Mid Term Gain": 372.259887006,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Biogen Idec",
+            "app_data": {}
+        }, {
+            "key": "84",
+            "name": "NSC",
+            "values": {
+                "Short Term Gain": -39.2484702232,
+                "Quantity": 2733612,
+                "Long Term Gain": 218.383017164,
+                "Mid Term Gain": 49.6602972399,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Norfolk Southern Corporation",
+            "app_data": {}
+        }, {
+            "key": "85",
+            "name": "ORCL",
+            "values": {
+                "Short Term Gain": -12.806072478,
+                "Quantity": 20096791,
+                "Long Term Gain": 166.941529235,
+                "Mid Term Gain": 51.2101910828,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Oracle Corporation",
+            "app_data": {}
+        }, {
+            "key": "86",
+            "name": "GOOG",
+            "values": {
+                "Short Term Gain": 25.4114621602,
+                "Quantity": 4201417,
+                "Long Term Gain": 0,
+                "Mid Term Gain": 0,
+                "Risk Factor": 0.330590252265
+            },
+            "description_html": "Google Inc.",
+            "app_data": {}
+        }, {
+            "key": "87",
+            "name": "INTC",
+            "values": {
+                "Short Term Gain": -15.1104565538,
+                "Quantity": 28463113,
+                "Long Term Gain": -1.30136986301,
+                "Mid Term Gain": 48.9405684755,
+                "Risk Factor": 0.283141719609
+            },
+            "description_html": "Intel Corporation",
+            "app_data": {}
+        }, {
+            "key": "88",
+            "name": "HON",
+            "values": {
+                "Short Term Gain": 4.60539872244,
+                "Quantity": 3431608,
+                "Long Term Gain": 190.500715308,
+                "Mid Term Gain": 175.372931923,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Honeywell",
+            "app_data": {}
+        }, {
+            "key": "89",
+            "name": "ABBV",
+            "values": {
+                "Short Term Gain": -16.8788307402,
+                "Quantity": 9273977,
+                "Long Term Gain": 0,
+                "Mid Term Gain": 0,
+                "Risk Factor": 0.612525538268
+            },
+            "description_html": "AbbVie Inc.",
+            "app_data": {}
+        }, {
+            "key": "90",
+            "name": "ABT",
+            "values": {
+                "Short Term Gain": -15.3446327684,
+                "Quantity": 7792196,
+                "Long Term Gain": -11.6509433962,
+                "Mid Term Gain": -30.5910691125,
+                "Risk Factor": 0.883910968514
+            },
+            "description_html": "Abbott Laboratories",
+            "app_data": {}
+        }, {
+            "key": "91",
+            "name": "UTX",
+            "values": {
+                "Short Term Gain": -19.8411232219,
+                "Quantity": 6848010,
+                "Long Term Gain": -10.8668857847,
+                "Mid Term Gain": 27.5613699838,
+                "Risk Factor": 0.520977593485
+            },
+            "description_html": "United Technologies Corp",
+            "app_data": {}
+        }, {
+            "key": "92",
+            "name": "XOM",
+            "values": {
+                "Short Term Gain": -15.7041960947,
+                "Quantity": 26545266,
+                "Long Term Gain": 94.1626794258,
+                "Mid Term Gain": 21.2066905615,
+                "Risk Factor": 0.0
+            },
+            "description_html": "Exxon Mobil Corp",
+            "app_data": {}
+        }, {
+            "key": "93",
+            "name": "SLB",
+            "values": {
+                "Short Term Gain": -29.0565270435,
+                "Quantity": 12354490,
+                "Long Term Gain": 10.7619047619,
+                "Mid Term Gain": 5.53539019964,
+                "Risk Factor": 0.585061547213
+            },
+            "description_html": "Schlumberger",
+            "app_data": {}
+        }, {
+            "key": "94",
+            "name": "PFE",
+            "values": {
+                "Short Term Gain": -6.11439842209,
+                "Quantity": 47413790,
+                "Long Term Gain": -23.3905579399,
+                "Mid Term Gain": 53.3834586466,
+                "Risk Factor": 0.340809984769
+            },
+            "description_html": "Pfizer Inc",
+            "app_data": {}
+        }, {
+            "key": "95",
+            "name": "NKE",
+            "values": {
+                "Short Term Gain": -42.3664921466,
+                "Quantity": 21183990,
+                "Long Term Gain": -24.1873278237,
+                "Mid Term Gain": -10.794165316,
+                "Risk Factor": 1.0
+            },
+            "description_html": "Nike",
+            "app_data": {}
+        }, {
+            "key": "96",
+            "name": "MCD",
+            "values": {
+                "Short Term Gain": 19.8739799607,
+                "Quantity": 11299518,
+                "Long Term Gain": 301.418194396,
+                "Mid Term Gain": 77.8271529268,
+                "Risk Factor": 0.0
+            },
+            "description_html": "McDonald's Corp",
+            "app_data": {}
+        }, {
+            "key": "97",
+            "name": "CSCO",
+            "values": {
+                "Short Term Gain": -14.4722118612,
+                "Quantity": 38712487,
+                "Long Term Gain": 1.01321585903,
+                "Mid Term Gain": -4.73618612381,
+                "Risk Factor": 0.621301214173
+            },
+            "description_html": "Cisco Systems",
+            "app_data": {}
+        }]
+    }
+}

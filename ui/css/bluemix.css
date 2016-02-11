@@ -1,0 +1,21 @@
+.circle {    
+    border: 1px solid #333;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.circle.green {
+    background-color: rgba(0, 255, 0, 1);
+}
+
+.circle.red {
+    background-color: rgba(255, 0, 0, 1);
+}
+tr.clickable-row {
+    cursor: pointer;
+}
+.progress {
+  margin-bottom: 0px;
+}
