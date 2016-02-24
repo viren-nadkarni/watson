@@ -1,0 +1,7 @@
+flask
+flask-cors
+requests==2.9.1
+tweepy
+pandas
+lxml
+Quandl==2.8.9
